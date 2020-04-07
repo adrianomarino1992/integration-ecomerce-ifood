@@ -1,59 +1,125 @@
 #back-image {
     position: absolute;
-    top: 0px;
+    top: 150px;
     left: 0px;
     width: 100%;
+    height: 400px;
 }
 
 #logo-principal {
     position: absolute;
-    top: 0px;
-    left: 10px;
-    width: 110px;
+    top: 25px;
+    left: 25px;
+    width: 150px;
     opacity: 0.9;
     z-index: 8;
 }
 
+#conteiner-delivery-video {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    background-color: white;
+}
+
+#conteiner-delivery-ifood {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    background-color: white;
+}
+
 #h2-super {
     position: absolute;
-    top: -10px;
+    top: 0px;
     left: 50%;
     z-index: 2;
     width: 300px;
     margin-left: -150px;
-    color: rgba(255, 255, 255, 0.822);
+    color: rgba(255, 255, 255, 0.849);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-shadow: 2px 2px rgba(109, 107, 107, 0.322);
+    text-align: center;
+}
+
+#youtube {
+    position: absolute;
+    width: 90%;
+    height: 300px;
+    bottom: 100px;
+    left: 5%;
+    border: 5px solid rgba(255, 255, 255, 0.452);
+    opacity: 0.7;
+}
+
+a {
+    z-index: 100;
+}
+
+.h2-conteiner {
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+    color: rgba(83, 83, 83, 0.897);
     font-size: 30px;
     font-weight: 500;
     font-family: sans-serif;
     text-shadow: 2px 2px rgba(109, 107, 107, 0.322);
 }
 
-#youtube {
-    position: absolute;
-    width: 70%;
-    height: 400px;
-    top: 120px;
-    left: 15%;
-    border: 5px solid rgba(255, 255, 255, 0.452);
-    opacity: 0.9;
-}
-
-#btn-quero-integrar {
-    position: absolute;
-    z-index: 2;
-    top: 560px;
-    width: 200px;
-    left: 50%;
-    margin-left: -100px;
-    background-image: linear-gradient(to bottom right, rgb(0, 110, 255), rgb(194, 233, 240));
-    height: 40px;
+.btn-quero {
+    background-image: linear-gradient(to bottom right, rgb(253, 194, 1), rgb(219, 136, 68));
+    height: 60px;
     color: white;
     border: none;
     cursor: pointer;
+    border: 2px solid rgba(255, 255, 255, 0.233);
+    font-weight: 600;
 }
 
-#btn-quero-integrar:hover {
+.btn-quero:hover {
     background-image: linear-gradient(to bottom right, rgb(77, 76, 76), rgb(151, 151, 151));
+}
+
+#btn-quero-delivery {
+    position: absolute;
+    z-index: 2;
+    top: 260px;
+    width: 200px;
+    right: 50px;
+}
+
+#btn-quero-ifood {
+    position: absolute;
+    z-index: 2;
+    top: 360px;
+    width: 200px;
+    right: 50px;
+}
+
+#btn-quero-delivery-bottom {
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+}
+
+#btn-quero-ifood-bottom {
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
 }
 
 #header-div {
@@ -62,36 +128,57 @@
     left: 0px;
     z-index: 10;
     width: 100%;
-    height: 70px;
-    background-image: linear-gradient(to bottom right, rgba(247, 247, 248, 0.349), rgba(229, 232, 235, 0));
+    height: 150px;
+    background-image: linear-gradient(to bottom right, rgba(49, 49, 49, 0.965), rgba(59, 82, 195, 0.876));
+    border-bottom: 2px solid rgba(160, 158, 158, 0.945);
 }
 
 
-/*1440*/
+/*100%*/
 
 #content-vantagens {
     position: absolute;
-    top: 640px;
+    top: 550px;
     left: 0px;
     width: 100%;
-    height: 800px;
-    background-image: linear-gradient(to bottom right, rgba(241, 242, 245, 0.445), rgba(8, 65, 199, 0.541), rgba(7, 77, 146, 0.87));
+    height: 1000px;
+    background-image: linear-gradient(to bottom right, rgba(182, 182, 182, 0.678), rgba(223, 223, 223, 0.972), rgba(203, 203, 204, 0.945));
+}
+
+#content-vantagens-left {
+    position: absolute;
+    top: 150px;
+    left: 5%;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
+    overflow: auto;
+    height: calc(100% - 200px);
+}
+
+#content-vantagens-right {
+    position: absolute;
+    top: 150px;
+    right: 5%;
+    width: 40%;
+    background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
+    overflow: auto;
+    height: calc(100% - 200px);
 }
 
 #content-vantagens h3 {
     margin: 20px;
     font-size: 30px;
     font-weight: 400;
-    color: rgb(253, 253, 253);
+    color: rgb(83, 83, 83);
     text-align: center;
     font-family: sans-serif;
 }
 
 #content-vantagens h4 {
     margin: 20px;
-    font-size: 23px;
-    font-weight: 400;
-    color: rgb(224, 223, 223);
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(2, 130, 235);
     text-align: center;
     font-family: sans-serif;
 }
@@ -99,336 +186,46 @@
 #content-vantagens p {
     margin: 20px;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     color: rgba(46, 46, 46, 0.822);
     text-align: justify;
     font-family: sans-serif;
 }
-
-
-/*2040*/
-
-#content-how {
-    position: absolute;
-    left: 0px;
-    top: 1440px;
-    width: 100%;
-    height: 600px;
-    background-color: rgb(253, 253, 253);
-    z-index: 3;
-    overflow: auto;
-    background-image: linear-gradient(to bottom right, rgb(255, 255, 255), rgb(231, 231, 231));
-}
-
-#content-how h3 {
-    position: relative;
-    margin: 20px;
-    font-size: 30px;
-    font-weight: 400;
-    color: rgb(97, 97, 97);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#content-how-back {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    z-index: 2;
-    opacity: 0.2;
-}
-
-#img-tutorial {
-    position: absolute;
-    top: 130px;
-    left: 5%;
-    z-index: 9;
-    width: 50%;
-    height: 400px;
-}
-
-#explication {
-    position: absolute;
-    top: 130px;
-    right: 5%;
-    background-color: rgba(34, 34, 34, 0);
-    width: 38%;
-    height: 400px;
-    z-index: 9;
-}
-
-#explication h3 {
-    position: relative;
-    margin: 20px;
-    font-size: 22px;
-    font-weight: 400;
-    color: rgb(97, 97, 97);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#explication p {
-    margin: 20px;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgba(46, 46, 46, 0.822);
-    text-align: justify;
-    font-family: sans-serif;
-}
-
-#btn-next {
-    position: absolute;
-    bottom: 10px;
-    right: 40px;
-    width: 45px;
-}
-
-#btn-back {
-    position: absolute;
-    bottom: 10px;
-    left: 40px;
-    width: 45px;
-    transform: rotate(180deg);
-}
-
-
-/*2040*/
-
-#content-prices {
-    position: absolute;
-    top: 2040px;
-    left: 0px;
-    width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to bottom right, rgb(5, 5, 5), rgb(5, 60, 187));
-}
-
-#content-prices h3 {
-    position: relative;
-    margin: 20px;
-    font-size: 30px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-3 {
-    position: absolute;
-    top: 90px;
-    left: 5%;
-    height: 300px;
-    width: 26.66%;
-    background-image: linear-gradient(to bottom right, rgba(53, 53, 53, 0.965), rgba(58, 52, 52, 0.356));
-    border-radius: 20px;
-}
-
-#price-card-2 {
-    position: absolute;
-    top: 90px;
-    left: 36.66%;
-    height: 300px;
-    width: 26.66%;
-    background-image: linear-gradient(to bottom right, rgba(53, 53, 53, 0.965), rgba(58, 52, 52, 0.356));
-    border-radius: 20px;
-}
-
-#price-card-1 {
-    position: absolute;
-    top: 90px;
-    left: 68.32%;
-    height: 300px;
-    width: 26.66%;
-    background-image: linear-gradient(to bottom right, rgba(53, 53, 53, 0.965), rgba(58, 52, 52, 0.356));
-    border-radius: 20px;
-}
-
-#price-card-3 .price-card-h3 {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(241, 242, 243, 0.849);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-3 p {
-    margin: 20px;
-    font-size: 13px;
-    font-weight: 400;
-    color: rgba(243, 241, 241, 0.849);
-    text-align: justify;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-3 h5 {
-    position: absolute;
-    bottom: 10px;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-2 .price-card-h3 {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(241, 242, 243, 0.849);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-2 p {
-    margin: 20px;
-    font-size: 13px;
-    font-weight: 400;
-    color: rgba(243, 241, 241, 0.849);
-    text-align: justify;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-2 h5 {
-    position: absolute;
-    bottom: 10px;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-1 .price-card-h3 {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgba(241, 242, 243, 0.849);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-1 p {
-    margin: 20px;
-    font-size: 13px;
-    font-weight: 400;
-    color: rgba(243, 241, 241, 0.849);
-    text-align: justify;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-#price-card-1 h5 {
-    position: absolute;
-    bottom: 10px;
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 100;
-    color: rgb(255, 0, 0);
-    text-align: center;
-    font-family: sans-serif;
-    z-index: 10;
-}
-
-
-/* 2440 */
-
-#cotent-email {
-    position: absolute;
-    top: 2440px;
-    left: 0px;
-    width: 100%;
-    height: 400px;
-    background-color: white;
-}
-
-#cotent-email h3 {
-    margin: 20px;
-    font-size: 30px;
-    font-weight: 400;
-    color: rgb(71, 71, 71);
-    text-align: center;
-    font-family: sans-serif;
-}
-
-#cotent-email p {
-    margin: 20px;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(117, 115, 115);
-    text-align: center;
-    font-family: sans-serif;
-}
-
-#cotent-email h5 {
-    margin: 20px;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(71, 71, 71);
-    text-align: center;
-    font-family: sans-serif;
-}
-
-#cotent-email input {
-    width: 50%;
-    margin-left: 25%;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgb(26, 26, 27);
-    text-align: center;
-    font-family: sans-serif;
-}
-
-#content-enviar-email {
-    position: absolute;
-    z-index: 2;
-    bottom: 50px;
-    width: 200px;
-    left: 50%;
-    margin-left: -100px;
-    background-image: linear-gradient(to bottom right, rgb(0, 110, 255), rgb(194, 233, 240));
-    height: 40px;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-
-/* 2840 */
 
 #cotent-footer {
     position: absolute;
-    top: 2840px;
+    padding: 20px;
+    top: 1550px;
     left: 0px;
-    width: 100%;
-    height: 100px;
-    background-image: linear-gradient(to bottom right, rgba(49, 49, 49, 0.965), rgba(4, 23, 107, 0.876));
+    width: calc(100% - 40px);
+    height: 260px;
+    background-image: linear-gradient(to bottom right, rgba(49, 49, 49, 0.965), rgba(59, 82, 195, 0.876));
+    border-top: 2px solid rgba(160, 158, 158, 0.945);
 }
 
 #logo-secundary {
     position: absolute;
-    left: 20px;
-    top: 10px;
-    width: 120px;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
 }
 
 #cotent-footer h3 {
-    margin: 11px;
-    font-size: 14px;
+    margin-left: 320px;
+    font-size: 20px;
     font-weight: 400;
-    color: rgb(231, 229, 229);
-    text-align: center;
+    color: rgb(248, 248, 248);
+    text-align: justify;
+    font-family: sans-serif;
+}
+
+#cotent-footer h2 {
+    margin-left: 320px;
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: justify;
     font-family: sans-serif;
 }

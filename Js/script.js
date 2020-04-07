@@ -1,0 +1,1 @@
+// window.location = "https://api.whatsapp.com/send?phone=+5512982068255&text=Hi, I contacted you Through your website.";
