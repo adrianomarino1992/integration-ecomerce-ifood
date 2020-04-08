@@ -209,11 +209,10 @@ a {
 
 #logo-secundary {
     position: absolute;
-    left: 50%;
+    left: 100px;
     top: 50px;
     width: 200px;
     height: 200px;
-    margin-left: -100px;
     border-radius: 120px;
 }
 
@@ -331,5 +330,9 @@ a {
         left: 50%;
         margin-left: -100px;
         width: 200px;
+    }
+    #logo-secundary {
+        left: 50%;
+        margin-left: -100px;
     }
 }
