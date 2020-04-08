@@ -1,0 +1,22 @@
+{
+  "name": "ifoodintegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianomarino1992/integration-ecomerce-ifood.git"
+  },
+  "author": "adriano.marino1992@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianomarino1992/integration-ecomerce-ifood/issues"
+  },
+  "homepage": "https://github.com/adrianomarino1992/integration-ecomerce-ifood#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
