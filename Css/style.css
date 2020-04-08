@@ -209,10 +209,11 @@ a {
 
 #logo-secundary {
     position: absolute;
-    left: 100px;
+    left: 50%;
     top: 50px;
     width: 200px;
     height: 200px;
+    margin-left: -100px;
     border-radius: 120px;
 }
 
@@ -257,4 +258,78 @@ a {
     color: rgb(47, 47, 47);
     text-align: center;
     font-family: 'Libre Franklin';
+}
+
+@media only screen and (max-width: 800px) {
+    #logo-principal {
+        top: 5px;
+        left: 5px;
+        width: 50px;
+        display: none;
+    }
+    #btn-quero-delivery {
+        position: absolute;
+        top: 260px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    #btn-quero-ifood {
+        position: absolute;
+        top: 360px;
+        left: 50%;
+        margin-left: -100px;
+    }
+    #content-vantagens {
+        height: 2000px;
+    }
+    #content-vantagens-left {
+        position: absolute;
+        top: 1050px;
+        left: 5%;
+        width: 90%;
+        background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
+        overflow: auto;
+        height: 870px;
+    }
+    #content-vantagens-right {
+        position: absolute;
+        top: 150px;
+        left: 5%;
+        width: 90%;
+        background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
+        overflow: auto;
+        height: 870px;
+    }
+    #cotent-footer {
+        top: 2550px;
+        height: 550px;
+    }
+    #cotent-footer h3 {
+        margin-left: 0px;
+        font-size: 17px;
+        font-weight: 400;
+        color: rgb(248, 248, 248);
+        text-align: justify;
+        font-family: 'Libre Franklin';
+    }
+    #cotent-footer h2 {
+        margin-left: 0px;
+        margin-top: 230px;
+        font-size: 30px;
+        font-weight: 400;
+        color: rgb(255, 255, 255);
+        text-align: justify;
+        font-family: 'Libre Franklin';
+    }
+    #footer {
+        top: 3140px;
+        height: 300px;
+    }
+    #logo-footer {
+        position: absolute;
+        top: 140px;
+        left: 50%;
+        margin-left: -100px;
+        width: 200px;
+    }
 }
