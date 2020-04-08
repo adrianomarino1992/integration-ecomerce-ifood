@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adrianomarino1992/integration-ecomerce-ifood#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "forever": "^2.0.0"
   }
 }
