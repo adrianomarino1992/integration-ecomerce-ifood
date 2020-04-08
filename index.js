@@ -7,6 +7,11 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/App/Index.html');
 })
 
-app.listen(process.env, () => {
+// app.get('/', (req, res) => {
+//     res.sendFile(__dirname + '/App/Index.html');
+// })
+
+
+app.listen(process.env.PORT, () => {
     console.log('servidor rodando');
 })
