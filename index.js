@@ -3,10 +3,10 @@ var express = require('express');
 var app = express();
 
 
-//CRIANDO DIRETORIO ACESSIVEL !!!!
-app.use(express.static(__dirname + '/App'));
+app.get('/', (req, res) => {
+    res.sendFile(__dirname + '/App/Index.html');
+})
 
-
-app.listen(process.env.PORT, () => {
+app.listen(process.env, () => {
     console.log('servidor rodando');
 })
