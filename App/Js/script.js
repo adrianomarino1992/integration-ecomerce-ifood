@@ -1,5 +1,13 @@
-$('.btn-quero').on('click', () => {
+(() => {
+    $('.btn-quero').on('click', (event) => {
 
-    window.open("https://api.whatsapp.com/send?phone=+5512982068255&text=Olá B2B, gostaria de utilizar delivery/ifood no meu sistema ! ");
+        let button = event.currentTarget;
 
-})
+        if ($(button).text().indexOf("IFOOD") != -1) {
+            window.open("https://api.whatsapp.com/send?phone=+5512982068255&text=Olá B2BTi, gostaria de mais informações sobre o iFood!");
+        } else {
+            window.open("https://api.whatsapp.com/send?phone=+5512982068255&text=Olá B2BTi, gostaria de mais informações sobre o Delivery!");
+        }
+
+    });
+})();
