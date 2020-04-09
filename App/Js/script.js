@@ -1,4 +1,17 @@
 (() => {
+
+    // $(document).ready(function() {
+    //     if (navigator.userAgent.indexOf('iPhone') != -1) {
+
+    //         $('body').css('MozTransform', 'scale(0.9)');
+
+    //         $('body').css('zoom', '90%');
+
+    //     }
+    // });
+
+
+
     $('.btn-quero').on('click', (event) => {
 
         let button = event.currentTarget;
@@ -10,4 +23,9 @@
         }
 
     });
+
+
+    $('.redirect-to-site').on('click', () => {
+        window.open("https://www.b2bti.com.br/");
+    })
 })();
