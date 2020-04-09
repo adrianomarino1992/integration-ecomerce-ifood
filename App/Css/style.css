@@ -299,7 +299,7 @@ a {
         width: 90%;
         background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
         overflow: auto;
-        height: 870px;
+        height: 890px;
     }
     #content-vantagens-right {
         position: absolute;
@@ -308,7 +308,7 @@ a {
         width: 90%;
         background-image: linear-gradient(to bottom right, rgb(241, 242, 245), rgba(183, 184, 185, 0.712), rgba(147, 148, 148, 0.801));
         overflow: auto;
-        height: 870px;
+        height: 890px;
     }
     #cotent-footer {
         top: 2550px;
