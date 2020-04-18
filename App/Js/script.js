@@ -1,5 +1,6 @@
 (() => {
 
+
     $('.btn-quero').on('click', (event) => {
 
         let button = event.currentTarget;
